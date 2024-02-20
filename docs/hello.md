@@ -6,6 +6,7 @@ sidebar_position: 3
 # Hello
 
 This is my **first Docusaurus document**!
+I am adding a sentence.
 
 
 # Hello

@@ -144,6 +144,7 @@ const config = {
 export default {
   title: 'Dina Site',
   url: 'https://dinaaben.github.io',
+  trailingSlash: false,
   baseUrl: '/dina-docusaurus/',
   themes: ['@docusaurus/theme-mermaid'],
   // In order for Mermaid code blocks in Markdown to work,

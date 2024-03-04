@@ -139,4 +139,15 @@ const config = {
     }),
 };
 
-export default config;
+//export default config;
+
+export default {
+  title: 'Dina Site',
+  url: 'https://dinaaben.github.io',
+  themes: ['@docusaurus/theme-mermaid'],
+  // In order for Mermaid code blocks in Markdown to work,
+  // you also need to enable the Remark plugin with this option
+  markdown: {
+    mermaid: true,
+  },
+};

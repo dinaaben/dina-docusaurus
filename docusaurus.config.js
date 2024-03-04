@@ -141,20 +141,4 @@ const config = {
 
 //export default config;
 
-export default {
-  title: 'Dina Site',
-  url: 'https://dinaaben.github.io',
-  trailingSlash: false,
-  baseUrl: '/dina-docusaurus/',
-  organizationName: 'dinaaben', // Usually your GitHub org/user name.
-  projectName: 'dina-docusaurus', // Usually your repo name.
 
-  onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
-  themes: ['@docusaurus/theme-mermaid'],
-  // In order for Mermaid code blocks in Markdown to work,
-  // you also need to enable the Remark plugin with this option
-  markdown: {
-    mermaid: true,
-  },
-};

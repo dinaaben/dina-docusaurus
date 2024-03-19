@@ -4,12 +4,11 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'What is AGILITY?',
+    title: 'AGILITY Onboarding',
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Install, setup, and start using AGILITY.
       </>
     ),
   },
@@ -28,6 +27,15 @@ const FeatureList = [
     description: (
       <>
         Automate and integrate with AGILITY APIs.
+      </>
+    ),
+  },
+  {
+    title: 'Reference docs',
+    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    description: (
+      <>
+        Model coverage tables, protocols, and services and installation reference documentation.
       </>
     ),
   },
